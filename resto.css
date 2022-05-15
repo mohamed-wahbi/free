@@ -1,0 +1,578 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.img-icon{
+    margin-left: 65px;
+    margin-top: 0px;
+    width: 216px;
+    height: 48px;
+    border-radius: 10px;
+}
+ #navbarNav{
+    
+    font-family: 'Source Serif Pro', serif;
+    margin-left: 90px;
+    font-size: 20px; 
+}
+.seconct{
+
+    margin-right: 33px;
+    text-decoration: none;
+    color: #407E5C;
+    font-size: 19px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+.img-f{
+    background-image: url(footer2.png);
+    background-repeat: no-repeat;
+    background-size: 1532px;
+    background-position-y: 173px;
+}
+#back_footer{
+    background-color: #4d5e7fc9;
+    width: 100%;
+    height: 435px;
+    background-image: url(footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+#card-pizza{
+    background-image: url(pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-img-top{transition: 0.8s;}
+.card-img-top:hover{
+    width: 170px;
+    height: 380px;
+}
+
+@media screen and (min-width:729px) and (max-width:980px) {
+ #a{
+   
+    margin-right: 2px !important;
+    }
+    #b{
+        width: 271px !important;
+    margin-right: 2px !important;
+    }
+    #c{
+        width: 177px !important;
+    margin-right: 2px !important;
+    }
+    #d{
+        width: 220px !important;
+        margin-right: 0px !important;
+        padding-left: 4px !important;
+     
+    }
+    #contentd{
+   
+    left: 0px !important;
+    top: 62px !important;
+    font-size: 16px !important;
+    }
+
+    
+}
+@media screen and (min-width:617px) and (max-width: 728px) {
+    #a{
+        margin-left: 115px !important;
+        text-align: center !important;
+    
+    }
+    #b{
+        width: 170px !important;
+        display: inline-block !important;
+        height: 190px ;
+        margin-right: 0px !important;
+        margin-left: 55px !important;
+    }
+    #c{
+        width: 141px !important;
+        display: inline-block !important;
+        height: 190px !important;
+        margin-right: 20px !important;
+    }
+    #d{
+        width: 155px !important;
+        display: inline-block !important;
+        height: 190px;
+        margin-right: 0px !important;
+    }
+    #inligne{
+        display: inline !important;
+       }
+}
+ @media  screen and (min-width:500px) and (max-width:616px) {
+   #inligne{
+    display: inline !important;
+   }
+ #a{
+    width: 350px !important;
+    display: inline-block;
+    height: 190px;
+    margin-right: 0px !important;
+    margin-left: 75px !important;
+    text-align: center !important;
+    margin-top: 25px !important;
+ }
+ #b{
+    width: 140px !important;
+    display: inline-block;
+    height: 190px !important;
+    margin-right: 0px !important;
+    margin: 15px !important;
+ }
+ #c{
+    width: 144px !important;
+    display: inline-block;
+    height: 190px;
+    margin-right: 0px !important;
+ }
+ #d{
+    width: 140px !important;
+    display: inline-block;
+    height: 220px !important;
+    margin-right: 0px !important;
+ }
+
+    }
+    @media screen and (min-width:992px) and (max-width:1380px) {
+        #navbarNav{
+            font-size: 12px !important;
+            margin: 0 !important;
+        }
+    }
+    @media screen and (min-width:0px) and (max-width:580px) {
+        #img_icon{
+            margin: 0px !important;
+        }
+    
+ 
+        #imgcard1{
+            width: 300px !important;
+        }
+        #imgcard2{
+            width: 300px !important;
+
+        }
+        #ABC{
+            background: white !important;
+    background-image: url(fleur.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: revert !important;
+        }
+        #cardabc{
+            width: 349px !important;
+    
+        }
+        #inligne{
+            display: inline !important;
+           }
+           #a{
+            width: 100% !important;
+            display: inline-block !important;
+            height: 190px !important;
+            margin-right: 0px !important;
+            text-align: center !important;
+            margin: 0px !important;
+           }
+  #b1{
+    width: 80% !important;
+    position: relative !important;
+    left: 30px !important;
+    top: 20px !important ;
+    font-size: 16px !important;
+    font-family: emoji !important;
+        }
+      #c{
+            width: 100% !important;
+            display: inline-block !important;
+            height: 155px !important;
+            margin-right: 0px !important;
+            text-align: center !important;
+            margin-left: 20px !important;
+        }
+      #d{
+            width: 100% !important;
+    height: 161px !important ;
+    text-align: center !important;
+        }
+       #contentd{
+            width: 81% !important;
+    left: 19px !important;
+    top: 63px !important;
+        }
+        #b{
+            display: inline !important;
+            height: 190px !important;
+            margin-right: 0px !important;
+            width: 100% !important;
+            text-align: center !important;
+        }
+        #content-center{
+            padding-left: 0px !important;
+        }
+#text-width1{
+    width: 100% !important;
+    margin-left: 0px !important;
+    max-height: auto !important;
+}
+#text-width2{
+    width: 100% !important;
+    margin-left: 0px !important;
+    max-height: auto !important;
+}
+
+
+
+
+
+
+
+
+
+    }
+
+@media screen and (min-width:0px) and (max-width:840px) {
+    
+    #titre{
+        width: auto !important;
+    }
+    h5.card-title{
+        font-size: 30px !important;
+    }
+    #titre-card{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #p-card{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    p.card-text{
+        font-size: 25px !important;
+        width: auto !important;
+    }
+    #btn-card{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:770px) {
+     div.btn-group{
+    
+        width: auto !important;
+
+        margin-right:0 !important;
+        display: flex !important;
+        justify-content: center !important;
+     }
+     .chompi{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+     }
+     h5.card-body{
+        text-align: center !important;
+     }
+     div.col-md-8{
+         padding-left: 0px !important;
+     }
+     div.card-body{
+         text-align: center !important;
+     }
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .card-img-top{
+        width: inherit !important;
+        height: inherit !important;
+    }
+   #col{
+       width: auto !important;
+   }
+#col-card{
+    margin: 0px !important;
+}
+#width-button{
+    height: 40px !important;
+    width: 100px !important;
+}
+#text{
+    text-align: center !important;
+    font-size: 10px !important;
+}
+#row{
+    margin-left: 0px !important;
+    margin-right:0px !important ;
+    width: 100% !important;
+}
+
+}
+
+@media screen and (min-width:0px) and (max-width:350px) {
+
+    #ABC{
+        width: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #cardabc{
+        width: 349px !important;
+
+    }
+    #card{
+        display: inline-block !important;
+        width: 200px !important;
+    }
+    #col{
+        width: 100% !important;
+        display: inline-flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #imgcard1{
+        width: 300px !important;
+    }
+    #imgcard2{
+        width: 300px !important;
+
+    }
+
+}
+.bi-share::before{
+    width: 28px;
+    content: "\f52e";
+    height: 28px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+.bi-heart::before{
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    background: white; 
+}
+
+
+.c .stars{
+    height: 150px;
+    width: 500px;
+    text-align: center;
+}
+.stars input {
+    display: none;
+}
+.stars label{
+    font-size: 20px;
+    color: lightgray;
+    text-shadow: 1px 1px #bbb;
+    float: right;
+  
+}
+.stars input:checked ~ label {
+    color: gold;
+}
+.c{
+position: absolute;
+   }
+
+@media screen and (min-width:0px) and (max-width:1025px) {
+    #flech_gauche{
+        display: none !important;
+    }
+    #flech_droite{
+        display: none !important;
+    }
+    #plats-cards{
+        justify-content: center !important;
+    }
+}
+
+
+
+
+
+/*
+
+<div id="plats-cards" style="padding-bottom: 55px;display:flex;flex-flow: wrap;justify-content: space-evenly;align-items: center;">
+
+<div><i id="flech_gauche" class="bi bi-caret-left-square" style="font-size: 35px;color: #aa9c9c;cursor: pointer;"></i></div>
+  <div class="card-food" style="display:inline-flex;margin-top: 25px;background: #f6f6f6;">
+    
+    <div class="card-food1" style="width:auto;margin-top: 10px;" >
+    
+      <div class="card-food1-img1" style="display: flex;">
+        <img src="sbagetti fruit de mere1.jpg" alt="" style="width: 272px;margin-left: 0px;" id="birgar1">
+        <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: 0px;margin-bottom: 10px;width: 264px;" >
+          <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-20%</span>
+         <span style="background-color: #407E5C;width: 55%;
+         display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
+          5 plats</span>
+        </div>
+        <div class="remises2" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 54px;" >
+          <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-15%</span>
+         <span style="background-color: #407E5C;width: 55%;
+         display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
+          3 plats</span>
+        </div> 
+        <div class="remises3" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
+          <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-10%</span>
+         <span style="background-color: #407E5C;width: 55%;
+         display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
+          2 plats</span>
+        </div> 
+    <div style="position: absolute;margin-top: 155px;margin-left: 185px;"><i class="bi bi-share" id="share1" style="cursor: pointer;"></i><i class="bi bi-heart" id="Heart1" style="cursor: pointer;"></i></div>    
+    
+      </div> 
+       <div class="header-card-food1">
+       <h3 style="padding-left: 15px;color: #404c65;padding-top: 10px;">El walima</h3>
+       </div>
+       <div class="header-card-main" style="margin-left: 15px;font-weight: bold;font-size: 15px;color: #8080806b;">
+       <p>La spécialité du réstaurant</p>
+          <div style="margin-bottom: 6px">
+         <span><i class="bi bi-star-fill" id="S11" onclick="s11()"></i></span>
+         <span><i class="bi bi-star-fill" id="S21" onclick="s21()"></i></span>
+         <span><i class="bi bi-star-fill" id="S31" onclick="s31() "></i></span>
+         <span><i class="bi bi-star-fill" id="S41" onclick="s41()"></i></span>
+         <span><i class="bi bi-star-fill" id="S51" onclick="s51()"></i></span>
+          </div>
+        
+       
+       <p><span><i class="bi bi-clock-fill"></i></span> 08:30-23:30
+      <a href="#" style="text-decoration:none;"><span style="margin-left: 7px;"><i class="bi bi-geo-alt-fill"></i></span> Monastir</a>
+      <span  style="margin-left: 7px;"><i class="bi bi-heart" style="cursor: pointer;"  id="Heart_1"></i></span> <b style="cursor: pointer;" id="text">45</b> 
+      </p>
+</div> 
+   </div>
+    </div>
+
+    
+
+  <div class="card-food" style="display:inline-flex;margin-top: 25px;background: #f6f6f6;">
+    <div class="card-food1" style="width: auto;margin-top: 10px;" >
+    
+      <div class="card-food1-img1" style="display: flex;">
+        <img src="lablabi1.jpg" alt=""  style="width: 320px;margin-left: 0px;height: 230px;"   >
+        <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: 0px;margin-bottom: 10px;width: 264px;" >
+          <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-20%</span>
+         <span style="background-color: #407E5C;width: 55%;
+         display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
+          5 plats</span>
+        </div>
+        <div class="remises2" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 54px;" >
+          <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-15%</span>
+         <span style="background-color: #407E5C;width: 55%;
+         display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
+          3 plats</span>
+        </div> 
+        <div class="remises3" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
+          <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-10%</span>
+         <span style="background-color: #407E5C;width: 55%;
+         display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
+          2 plats</span>
+        </div> 
+    <div style="position: absolute;margin-top: 204px;margin-left: 230px;"><i class="bi bi-share" id="share2" style="cursor: pointer;"></i><i class="bi bi-heart" id="Heart2"style="cursor: pointer;"></i></div>    
+    
+      </div> 
+       <div class="header-card-food1">
+       <h3 style="padding-left: 15px;color: #404c65;padding-top: 10px;">El walima</h3>
+       </div>
+       <div class="header-card-main" style="margin-left: 15px;font-weight: bold;font-size: 15px;color: #8080806b;">
+       <p>La spécialité du réstaurant</p>
+       
+       <div style="margin-bottom: 6px">
+        <span><i class="bi bi-star-fill" id="S12" onclick="s12()"></i></span>
+        <span><i class="bi bi-star-fill" id="S22" onclick="s22()"></i></span>
+        <span><i class="bi bi-star-fill" id="S32" onclick="s32()"></i></span>
+        <span><i class="bi bi-star-fill" id="S42" onclick="s42()"></i></span>
+        <span><i class="bi bi-star-fill" id="S52" onclick="s52()"></i></span>
+         </div>
+
+
+
+
+       <p><span><i class="bi bi-clock-fill"></i></span> 08:30-23:30
+      <a href="#" style="text-decoration:none;"><span style="margin-left: 7px;"><i class="bi bi-geo-alt-fill"></i></span> Monastir</a>
+      <span style="margin-left: 7px;cursor: pointer;" id="Heart_2" ><i class="bi bi-heart"></i></span><b id="text2" style="cursor: pointer;">45</b> 
+      </p>
+</div> 
+   </div>
+    </div>
+
+
+    <div class="card-food" style="display:inline-flex;margin-top: 25px;background: #f6f6f6;">
+      <div class="card-food1" style="width: 273px;margin-top: 10px;" >
+      
+        <div class="card-food1-img1" style="display: flex;">
+          <img src="ijja1.jpg" alt="" style="width: 272px;margin-left: 0px;">
+          <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: 0px;margin-bottom: 10px;width: 264px;" >
+            <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-20%</span>
+           <span style="background-color: #407E5C;width: 55%;
+           display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
+            5 plats</span>
+          </div>
+          <div class="remises2" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 54px;" >
+            <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-15%</span>
+           <span style="background-color: #407E5C;width: 55%;
+           display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
+            3 plats</span>
+          </div> 
+          <div class="remises3" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
+            <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-10%</span>
+           <span style="background-color: #407E5C;width: 55%;
+           display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
+            2 plats</span>
+          </div> 
+      <div style="position: absolute;margin-top: 155px;margin-left: 185px;"><i class="bi bi-share" style="cursor: pointer;" id="share3"></i><i  style="cursor:pointer;" class="bi bi-heart" id="Heart3"></i></div>    
+      
+        </div> 
+         <div class="header-card-food1">
+         <h3 style="padding-left: 15px;color: #404c65;padding-top: 10px;">El walima</h3>
+         </div>
+         <div class="header-card-main" style="margin-left: 15px;font-weight: bold;font-size: 15px;color: #8080806b;">
+         <p>La spécialité du réstaurant</p>
+      
+         <div style="margin-bottom: 6px">
+          <span><i class="bi bi-star-fill" onclick="s13 ()" id="S13"></i></span>
+          <span><i class="bi bi-star-fill" onclick="s23 ()" id="S23"></i></span>
+          <span><i class="bi bi-star-fill" onclick="s33 ()" id="S33"></i></span>
+          <span><i class="bi bi-star-fill" onclick="s43 ()" id="S43"></i></span>
+          <span><i class="bi bi-star-fill" onclick="s53()" id="S53"></i></span>
+           </div>
+
+
+
+
+         <p><span><i class="bi bi-clock-fill"></i></span> 08:30-23:30
+        <a href="#" style="text-decoration:none;"><span style="margin-left: 7px;"><i class="bi bi-geo-alt-fill"></i></span> Monastir</a>
+        <span style="margin-left: 7px;"><i class="bi bi-heart" id="Heart_3" style="cursor: pointer;"></i></span> <b style="cursor: pointer;" id="text3">45</b> 
+        </p>
+  </div> 
+     </div>
+     </div>
+     <div><i id="flech_droite" class="bi bi-caret-right-square" style="font-size: 35px;color: #aa9c9c;cursor: pointer;"></i></div>
+  </div> */
+      
+
